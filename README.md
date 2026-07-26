@@ -62,7 +62,8 @@ Before analysis, the following preprocessing steps were performed:
 ## SOLVED REAL TIME BUSINESS PROBLEMS TO REDUCE FRAUD TRANSACTIOS
 
 - Top 10 Highest Transactions
-What does it identify?
+- 
+-What does it identify?
 It finds the 10 transactions with the highest transaction amounts.
 
 How does it reduce fraud?
