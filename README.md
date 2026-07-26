@@ -64,11 +64,9 @@ Before analysis, the following preprocessing steps were performed:
 - Top 10 Highest Transactions
   
 What does it identify?
-
 It finds the 10 transactions with the highest transaction amounts.
 
 How does it reduce fraud?
-
 Fraudsters often attempt large transactions to maximise their gains.
 
 Company Action
