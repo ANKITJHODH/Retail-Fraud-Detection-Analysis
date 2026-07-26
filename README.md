@@ -45,7 +45,7 @@ The dataset contains retail transaction records including:
 * Unusual Amount Flag
 
 
-## DATA CLEANING AND PREPARATION AND SOLVED BASIC TO ADVANCED LEVEL BUSINESS PROBLEMS
+## DATA CLEANING AND PREPARATION 
 
 Before analysis, the following preprocessing steps were performed:
 
@@ -58,19 +58,30 @@ Before analysis, the following preprocessing steps were performed:
 
 
 
-### BASIC ANALYSIS
 
-- Total Transactions
-- Total Fraud Transactions
-- International Transactions
-- Average Transaction Amount
-- Highest & Lowest Transaction Amount
-- Transactions by Payment Method
-- Fraud Transactions by Device Type
-
-### INTERMEDIATE ANALYSIS
+## SOLVED REAL TIME BUSINESS PROBLEMS TO REDUCE FRAUD TRANSACTIOS
 
 - Top 10 Highest Transactions
+  What does it identify?
+                        It finds the 10 transactions with the highest transaction amounts.
+
+  How does it reduce fraud?
+                          Fraudsters often attempt large transactions to maximise their gains.
+
+# Company Action
+Review high-value transactions before approval.
+Require OTP or 2FA.
+Temporarily hold suspicious transactions.
+Contact the customer for confirmation.
+Example
+
+A customer who usually spends ₹5,000 suddenly makes a ₹2,00,000 transaction.
+
+Action: The company places the transaction on hold and verifies it with the customer, preventing a potential fraud.
+
+
+
+
 - Fraud Percentage by Merchant Category
 - Customers with Multiple Fraud Transactions
 - High-Risk Device Analysis
